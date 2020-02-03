@@ -1,0 +1,18 @@
+@import "base";
+
+svg {
+  max-width: 600px;
+}
+
+#stroke {
+  stroke-dasharray:462 462;
+  color:red;
+  /*
+    stroke-dashoffset: 1646;
+    ie　だとcssの記述が優先されるようです。
+  */
+}
+
+.a{
+  height:500px;
+}
